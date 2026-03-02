@@ -1,8 +1,8 @@
-import { CtxProvider } from "./app/components/ctx-provider";
+import { MainComponent } from "./app/components/main-component";
 import "./app/styles/main.css";
 
 function App() {
-  return <CtxProvider>the chakra ui app</CtxProvider>;
+  return <MainComponent />;
 }
 
 export default App;
